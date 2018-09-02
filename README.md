@@ -8,7 +8,6 @@
 该应用是基于Vue实现的，页面的UI是使用了Element组件库完成。
 * webpack前端工程化
 * vue-router前端路由
-* 单文件.vue格式与vue.loader
 
 ## 特点
 * 简洁的界面展示了实时天气和近三天天气信息
