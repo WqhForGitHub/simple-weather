@@ -6,8 +6,10 @@
 
 ## 技术框架
 该应用是基于Vue实现的，页面的UI是使用了Element组件库完成。
-* webpack前端工程化
+* Vue2
+* webpack前端工程化配置
 * vue-router前端路由
+* Element组件库
 
 ## 特点
 * 简洁的界面展示了实时天气和近三天天气信息
