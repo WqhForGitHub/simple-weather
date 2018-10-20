@@ -3,7 +3,7 @@
 
 ## 效果图
 ### PC端
-![效果图](http://pdi3m4use.bkt.clouddn.com/weather.png)
+![效果图](http://pdi3m4use.bkt.clouddn.com/weathercard.png)
 ### 移动设备端
 ![移动设备端](http://pdi3m4use.bkt.clouddn.com/weatherapp.png)
 ## 技术框架
