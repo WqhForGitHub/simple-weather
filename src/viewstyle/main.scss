@@ -3,28 +3,81 @@
   min-height:600px;
   height:auto;
   margin: 0 auto;
+  font-size: 14px;
   .location {
     width: 130px;
     height:20px;
     display: flex;
     margin: 15px auto;
     p {
-      font-size:25px;
+      font-size: 1.5rem;
       line-height: 30px;
       padding-left:5px;
       font-family: "Helvetica Neue"
     }
   }
   .serachField {
-    width:98%;
+    width: 98%;
     height: 60px;
     margin: 0 auto;
     display: flex;
-    .contentInput {
-      width:200px;
+    justify-content: space-between;
+    .cityInput {
+      width: 98%;
+    }
+    .updateTime {
+      width: 98%;
+      margin: 0 auto;
+    }
+    @media screen and (max-width: 767px) {
+      .cityInput {
+        width: 98%;
+        margin-left: 30px;
+      }
+      .updateTime {
+        width: 98%;
+        margin: 15px 30px;
+      }
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .serachField {
+      height: 90px;
     }
   }
 }
-input::-webkit-input-placeholder {
+
+.updateTime input::-webkit-input-placeholder {
   text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .area {
+    width: 93%;
+  }
+}
+
+.todayCard {
+  width:95%;
+}
+.tomorrowCard {
+  width:95%;
+}
+.afterTomoCard {
+  width:95%;
+}
+
+@media screen and (max-width: 767px) {
+  .todayCard {
+    width:95%;
+    margin: 0 auto;
+  }
+  .tomorrowCard {
+    width:95%;
+    margin: 15px auto;
+  }
+  .afterTomoCard {
+    width:95%;
+    margin: 10px auto;
+  }
 }
