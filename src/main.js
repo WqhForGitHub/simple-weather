@@ -1,17 +1,22 @@
-
 import Vue from 'vue'
-import App from './components/App'
+import App from './App.vue'
 import router from './router'
-import Vuex from 'vuex'
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
+import Antd from 'ant-design-vue'
+import 'ant-design-vue/dist/antd.css'
+import store from './store'
+import VueResource from 'vue-resource'
+
 Vue.config.productionTip = false
-Vue.use(ElementUI)
-Vue.use(Vuex)
-/* eslint-disable no-new */
+Vue.use(Antd)
+Vue.use(VueResource)
+
 new Vue({
-  el: '#app',
   router,
-  components: {App},
-  template: '<App/>'
-})
+  store,
+  render: h => h(App),
+}).$mount('#app')
+
+// 页面刷新时，重新赋值token
+if (sessionStorage.getItem('cityName')) {
+  store.commit('changeCityName', sessionStorage.getItem('cityName'))
+}

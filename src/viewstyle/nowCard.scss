@@ -1,0 +1,100 @@
+.nowCard {
+  min-height: 20px;
+  height: auto;
+  .todayStatus {
+    p {
+      font-size: 16px;
+      text-align: left;
+    }
+    .cond {
+      display: flex;
+      height:70px;
+      .temp {
+        font-size: 43px;
+        height: 41px;
+      }
+      .todayTemp {
+        font-size: 17px;
+        line-height: 90px;
+        padding-left: 15px;
+      }
+    }
+    .nowWindPower {
+      display: flex;
+    }
+    .airQuaility {
+      display: flex;
+    }
+  }
+  .todayWeatherIcon {
+    width: 88px;
+    height: 85px;
+    margin-top: 40px;
+  }
+  .detailsInfo {
+    width: 600px;
+    height: 170px;
+    .firstCol {
+      width: 100%;
+      height: 30px;
+      display: flex;
+      .sendibleTemp {
+        width:60px;
+        height: 60px;
+        p {
+          height:10px;
+          font-size:18px;
+        }
+      }
+      .humidity {
+        width:60px;
+        height: 60px;
+        margin-left:60px;
+        p {
+          height:10px;
+          font-size:18px;
+        }
+      }
+    }
+    .secondCol {
+      width: 100%;
+      height: 30px;
+      margin-top:45px;
+      display: flex;
+      .windPower {
+        width:60px;
+        height: 60px;
+        p {
+          height:10px;
+          font-size:18px;
+        }
+      }
+      .windDirection {
+        width:60px;
+        height: 60px;
+        margin-left:60px;
+        p {
+          height:10px;
+          font-size:18px;
+        }
+      }
+     
+    }
+    .thirdCol {
+      width: 100%;
+      height: 30px;
+      margin-top:45px;
+      display: flex;
+     
+      p {
+        height:10px;
+        font-size:18px;
+      }
+      .pulishTime {
+        width: 80px;
+        height: 30px;
+        margin-top:12px;
+      }
+    }
+  }
+}

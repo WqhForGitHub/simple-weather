@@ -1,0 +1,30 @@
+.area {
+  width:40%;
+  min-height:600px;
+  height:auto;
+  margin: 0 auto;
+  .location {
+    width: 130px;
+    height:20px;
+    display: flex;
+    margin: 15px auto;
+    p {
+      font-size:25px;
+      line-height: 30px;
+      padding-left:5px;
+      font-family: "Helvetica Neue"
+    }
+  }
+  .serachField {
+    width:98%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    .contentInput {
+      width:200px;
+    }
+  }
+}
+input::-webkit-input-placeholder {
+  text-align: center;
+}

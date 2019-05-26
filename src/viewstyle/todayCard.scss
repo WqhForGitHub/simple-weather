@@ -1,0 +1,46 @@
+.todayCard {
+  // width: 200px;
+  min-height: 100px;
+  height:auto;
+  .date {
+    width: 100%;
+    height: 30px;
+    float: left;
+    text-align: left;
+    display: flex;
+    .dateText {
+      font-size: 16px;
+    }
+  }
+  .tempDistance {
+    text-align: left;
+    font-size: 22px;
+    height: 50px;
+  }
+  .tempIcon {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    .firstIcon {
+      width: 40px;
+      height: 100%;
+    }
+  }
+  .todayWeatherText {
+    width: 100px;
+    height: 25px;
+    margin: 5px 0;
+    text-align: left;
+  }
+  .windInfo {
+    width: 100%;
+    height: 29px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .rainfall {
+    height: 10px;
+    text-align: left;
+  }
+}
