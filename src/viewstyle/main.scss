@@ -1,19 +1,19 @@
 .area {
-  width:40%;
-  min-height:600px;
-  height:auto;
+  width: 40%;
+  min-height: 600px;
+  height: auto;
   margin: 0 auto;
   font-size: 14px;
   .location {
     width: 130px;
-    height:20px;
+    height: 20px;
     display: flex;
     margin: 15px auto;
     p {
       font-size: 1.5rem;
       line-height: 30px;
-      padding-left:5px;
-      font-family: "Helvetica Neue"
+      padding-left: 5px;
+      font-family: "Helvetica Neue";
     }
   }
   .serachField {
@@ -58,26 +58,26 @@
 }
 
 .todayCard {
-  width:95%;
+  width: 95%;
 }
 .tomorrowCard {
-  width:95%;
+  width: 95%;
 }
 .afterTomoCard {
-  width:95%;
+  width: 95%;
 }
 
 @media screen and (max-width: 767px) {
   .todayCard {
-    width:95%;
+    width: 95%;
     margin: 0 auto;
   }
   .tomorrowCard {
-    width:95%;
+    width: 95%;
     margin: 15px auto;
   }
   .afterTomoCard {
-    width:95%;
+    width: 95%;
     margin: 10px auto;
   }
 }

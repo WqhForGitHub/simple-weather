@@ -43,7 +43,6 @@
 </template>
 
 <script>
-import ParamidaPay from '../paramidaPay'
 import nowCard from './nowCard.vue'
 import todayCard from './todayCard.vue'
 import tomorrowCard from './tomorrowCard.vue'
